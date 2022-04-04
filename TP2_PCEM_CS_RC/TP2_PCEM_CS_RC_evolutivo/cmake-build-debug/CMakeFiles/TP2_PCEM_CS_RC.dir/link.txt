@@ -1,0 +1,3 @@
+"C:\Program Files\JetBrains\CLion 2021.1.1\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\TP2_PCEM_CS_RC.dir/objects.a
+C:\MinGW\bin\ar.exe cr CMakeFiles\TP2_PCEM_CS_RC.dir/objects.a @CMakeFiles\TP2_PCEM_CS_RC.dir\objects1.rsp
+C:\MinGW\bin\gcc.exe -g -Wl,--whole-archive CMakeFiles\TP2_PCEM_CS_RC.dir/objects.a -Wl,--no-whole-archive -o TP2_PCEM_CS_RC.exe -Wl,--out-implib,libTP2_PCEM_CS_RC.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\TP2_PCEM_CS_RC.dir\linklibs.rsp
